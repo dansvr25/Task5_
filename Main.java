@@ -32,7 +32,7 @@ public class Main {
 
     static void printFigure(double h) {
 
-        System.out.println("");
+        System.out.println("*");
         System.out.print("|");
         System.out.println("\\");
 
@@ -45,7 +45,7 @@ public class Main {
             System.out.println("\\");
         }
 
-        System.out.print("");
+        System.out.print("*");
 
         for (int i = 2; i < h; i++) {
             System.out.print("-");
@@ -54,5 +54,3 @@ public class Main {
         System.out.print("*");
     }
 }
-
-
